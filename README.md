@@ -1,8 +1,8 @@
 ```deploying node app with Kubernetes```
 
-```ocker build -t hello-node:v1 .```
+```docker build -t hello-node:v1 .```
 
-```ubectl run hello-node --image=hello-node:v1 --port=8080```
+```kubectl run hello-node --image=hello-node:v1 --port=8080```
 
 ```kubectl get deployments```
 
